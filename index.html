@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | IP Address Tracker</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title-text">IP Address Tracker</h1>
+      <div class="search-field">
+        <input
+          type="text"
+          placeholder="Search for any IP address or domain"
+          class="search-input"
+        />
+        <div class="search-submit">
+          <img src="./images/icon-arrow.svg" alt="icon-arrow" />
+        </div>
+      </div>
+      <div class="location-info">
+        <div class="item-info">
+          <p class="item-title">IP Address</p>
+          <h2><span class="info" data-ip-address></span></h2>
+        </div>
+        <div class="item-info">
+          <p class="item-title">Location</p>
+          <h2><span class="info" data-location></span></h2>
+        </div>
+        <div class="item-info">
+          <p class="item-title">Timezone</p>
+          <h2><span class="info" data-time-zone></span></h2>
+        </div>
+        <div class="item-info">
+          <p class="item-title">ISP</p>
+          <h2><span class="info" data-isp></span></h2>
+        </div>
+      </div>
+    </div>
+    <div id="map"></div>
+  </body>
+</html>
