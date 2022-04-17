@@ -9,7 +9,7 @@ var map = L.map('map')
 function findLocation(lat, lng, region, country) {
   map.setView([lat, lng], 13)
   L.tileLayer(
-    'https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=nYy4Xo39gzuBCvBWHJmH',
+    'https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=LfT6OjlJ3Uxk2X5bgREI',
     {
       attribution: `<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>`,
       maxZoom: 18,
@@ -26,7 +26,7 @@ function findLocation(lat, lng, region, country) {
 search.onclick = () => {
   const searchInput = document.querySelector('.search-input')
   const searchValue = searchInput.value
-  const url = `https://geo.ipify.org/api/v2/country,city?apiKey=at_BosHa37kvNq1OCpebulZDrLnyIVTQ&ipAddress=${searchValue}`
+  const url = `https://geo.ipify.org/api/v2/country,city?apiKey=at_7Vp0irmyCeZBsAR7mulecHFQaIf04&ipAddress=${searchValue}`
   fetch(url)
     .then((res) => res.json())
     .then((data) => {
@@ -47,7 +47,7 @@ search.onclick = () => {
 }
 
 //Default IP Address On Load
-const url = `https://geo.ipify.org/api/v2/country,city?apiKey=at_BosHa37kvNq1OCpebulZDrLnyIVTQ`
+const url = `https://geo.ipify.org/api/v2/country,city?apiKey=at_7Vp0irmyCeZBsAR7mulecHFQaIf04`
 fetch(url)
   .then((res) => res.json())
   .then((data) => {
