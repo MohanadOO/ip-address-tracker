@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Here](https://www.frontendmentor.io/solutions/responsive-ip-address-tracker-using-html-css-javascript-rkwbc-945)
 - Live Site URL: [Here](https://ip-address-tracker-lilac.vercel.app/)
 
 ## My process
@@ -50,8 +50,8 @@ Users should be able to:
 ### Useful resources
 
 - [Leaflet Docs](https://leafletjs.com/SlavaUkraini/examples/quick-start/) - A quick start guide to Leaflet.
-- [Leaflet Tutorial](https://www.youtube.com/watch?v=wVnimcQsuwk&ab_channel=MapTiler) - This helped understand how the map function works and how to use it to display the map.
-- [Ipify Docs](https://geo.ipify.org/docs) - The IP Geolocation API docs were very helpful and easy to understand on how to get the IP address, location (latitude, longitude, region and country) and ISP (Internet Service Provider). I used teh API Type 2 to get all the information I need.
+- [Leaflet Tutorial](https://www.youtube.com/watch?v=wVnimcQsuwk&ab_channel=MapTiler) - This helped me understand how the map function works and how to use it to display the map.
+- [Ipify Docs](https://geo.ipify.org/docs) - The IP Geolocation API docs were very helpful and easy to understand on how to get the IP address, location (latitude, longitude, region, and country), and ISP (Internet Service Provider). I used the API Type 2 to get all the information I need.
 
 ## Author
 
